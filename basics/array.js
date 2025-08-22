@@ -13,5 +13,12 @@ const another_fruit = ["kely", "anar", "japani phal"]
 const myArr = fruite.flat(another_fruit)
 console.log(myArr);
 
+const joinArr = fruite.join(another_fruit)
+console.log(joinArr);
+const popArr = joinArr.pop()
+console.log(popArr);
+
+
+
 
 
