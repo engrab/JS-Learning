@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Create Node</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+
+    const h1 = document.createElement('h1')
+    console.log(h1);
+    h1.className = "main"
+    h1.id = "myh1"
+    h1.innerText = "Bilawal Hussain"
+    h1.style.color = "green"
+    document.body.appendChild(h1);
+
+
+    const div = document.createElement('div');
+    console.log(div);
+    div.className = 'my-div'
+    div.id = "mydiv"
+    div.innerText = "Chai aur code"
+    div.style.color = "red"
+    div.style.backgroundColor = "green"
+    div.setAttribute("title", "Bilawal Hussain")
+    document.body.appendChild(div)
+
+    
+    
+    
+</script>
+
+</html>
