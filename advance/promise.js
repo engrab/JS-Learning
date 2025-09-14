@@ -8,7 +8,7 @@ const promiseOne = new Promise((resolve, reject) => {
 promiseOne.then()
 
 new Promise((resolve, reject) => {
-    setInterval(() => {
+    setTimeout(() => {
         console.log("promoise two executed")
         resolve()
     }, 1000);
