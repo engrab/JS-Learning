@@ -46,8 +46,4 @@ async function consumePromiseFour() {
     }
 }
 
-
-
-
-
 consumePromiseFour()
